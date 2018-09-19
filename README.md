@@ -1,0 +1,23 @@
+# nuxt-django
+nuxt.js, Django, Mysql, Nginx, Docker, phpmyadmin
+
+## Installation
+
+    $ git clone https://github.com/115design/nuxt-django.git
+    $ cd nuxt-django
+    $ make start
+    $ make migrate
+    $ make create_superuser
+    $ make restart
+
+## Author
+
+[115design](http://115design.main.jp/)
+
+Django: http://localhost:8000
+phpMyAdmin: http://localhost:8380
+nuxt.js: http://localhost:3000
+
+## Licence
+
+[MIT](https://opensource.org/licenses/MIT)
