@@ -1,20 +1,24 @@
+# general
 .DS_Store
-Thumbs.db
-
 *.pyc
 *.pyo
-__pycache__
-migrations
-media
-Sessions
-
 *.bak
 *.db
 *.log
-.svn
+*.svn
 
-*node_modules/
-.config/
-.npm/
-.vue-templates/
-.nuxt/
+# frontend
+node_modules
+frontend/.config/
+frontend/.npm/
+frontend/.vue-templates/
+frontend/.nuxt/
+
+# backend
+__pycache__
+phpmyadmin/sessions
+backend/media/
+backend/static/admin/
+backend/static/rest_framework/
+backend/django/**/migrations/*.py
+!backend/django/**/migrations/__init__.py
