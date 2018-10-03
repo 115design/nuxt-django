@@ -4,7 +4,7 @@ CMD = xxx
 start:
 	docker-compose up -d
 
-start_l:
+start_log:
 	docker-compose up
 
 stop:
@@ -88,3 +88,9 @@ migrate:
 
 create_superuser:
 	docker-compose exec django python manage.py createsuperuser
+
+test:
+	docker-compose exec django python -Wall manage.py test ${ID}
+
+test_all:
+	docker-compose exec django python -Wall manage.py test
