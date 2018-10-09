@@ -1,5 +1,5 @@
 # nuxt-django
-nuxt.js, Django, Mysql, Nginx, Docker, phpmyadmin
+Nuxt.js, Django, Mysql, Nginx, Docker, phpmyadmin
 
 ## Installation
 
