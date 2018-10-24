@@ -12,7 +12,7 @@ Nuxt.js, Django, Mysql, Nginx, Docker, phpmyadmin
 		
 Django: http://localhost:8000  
 phpMyAdmin: http://localhost:8380  
-nuxt.js: http://localhost:3000
+Nuxt.js: http://localhost:3000
 
 ## Author
 
