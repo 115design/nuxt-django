@@ -9,6 +9,7 @@ Nuxt.js, Django, Mysql, Nginx, Docker, phpmyadmin
     $ make migrate
     $ make create_superuser
     $ make restart_django
+    $ make collect_static
 		
 Django: http://localhost:8000  
 phpMyAdmin: http://localhost:8380  
