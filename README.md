@@ -6,6 +6,7 @@ Nuxt.js, Django, Mysql, Nginx, Docker, phpmyadmin
     $ git clone https://github.com/115design/nuxt-django.git
     $ cd nuxt-django
     $ make start
+    $ make make_migrations
     $ make migrate
     $ make create_superuser
     $ make restart_django
